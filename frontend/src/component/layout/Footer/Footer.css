@@ -1,7 +1,7 @@
 footer {
   margin-top: 10vmax;
   padding: 2vmax;
-  background-color: rgb(34, 33, 33);
+  background-color: rgb(46, 49, 16);
   color: white;
   display: flex;
   align-items: center;
@@ -37,9 +37,14 @@ footer {
 }
 
 .midFooter > h1 {
-  font-size: 4vmax;
+  width: 30%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 310px;
   font-family: "Roboto";
-  color: #eb4034;
+  background-image: url("../../../images/logo.png");
 }
 .midFooter > p {
   max-width: 60%;

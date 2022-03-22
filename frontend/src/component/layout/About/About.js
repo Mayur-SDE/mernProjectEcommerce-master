@@ -18,7 +18,7 @@ const About = () => {
           <div>
             <Avatar
               style={{ width: "10vmax", height: "10vmax", margin: "2vmax 0" }}
-              src=""
+              src="https://i.ibb.co/PrDJbzR/image.jpg"
               alt="Founder"
             />
             <Typography>Mayur Isampalliwar</Typography>
@@ -29,13 +29,6 @@ const About = () => {
           </div>
           <div className="aboutSectionContainer2">
             <Typography component="h2">Our Brands</Typography>
-            <a
-              href="https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw"
-              target="blank"
-            >
-              <YouTubeIcon className="youtubeSvgIcon" />
-            </a>
-
             <a href="https://www.instagram.com/i_mayur_mayu/" target="blank">
               <InstagramIcon className="instagramSvgIcon" />
             </a>

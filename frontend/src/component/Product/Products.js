@@ -11,12 +11,14 @@ import Typography from "@material-ui/core/Typography";
 import MetaData from "../layout/MetaData";
 
 const categories = [
-  "Laptop",
-  "Footwear",
+  "Electronics",
+  "Women Footwear",
+  "Men Footer",
   "Bottom",
+  "Sports Wear",
   "Tops",
-  "Attire",
-  "Camera",
+  "Books",
+  "Gadget",
   "SmartPhones",
 ];
 
@@ -66,7 +68,7 @@ const Products = ({ match }) => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="PRODUCTS -- ECOMMERCE" />
+          <MetaData title="PRODUCTS -- ShoppingAdda" />
           <h2 className="productsHeading">Products</h2>
 
           <div className="products">
@@ -82,7 +84,7 @@ const Products = ({ match }) => {
               value={price}
               onChange={priceHandler}
               valueLabelDisplay="auto"
-              aria-labelledby="range-slider"
+              aria-labelledby="pretto slider"
               min={0}
               max={25000}
             />

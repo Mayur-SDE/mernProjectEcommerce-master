@@ -38,12 +38,14 @@ const UpdateProduct = ({ history, match }) => {
   const [imagesPreview, setImagesPreview] = useState([]);
 
   const categories = [
-    "Laptop",
-    "Footwear",
+    "Electronics",
+    "Women Footwear",
+    "Men Footer",
     "Bottom",
+    "Sports Wear",
     "Tops",
-    "Attire",
-    "Camera",
+    "Books",
+    "Gadget",
     "SmartPhones",
   ];
 

@@ -6,6 +6,7 @@
   color: rgba(0, 0, 0, 0.678);
   font: 500 1.5vmax "Roboto";
   text-align: center;
+  background-image: url("../../images/image.png");
 }
 
 .products {
